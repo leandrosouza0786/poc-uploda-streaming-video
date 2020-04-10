@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #9147FF;
+    .main-title{
+        margin-top: .6em;
+        font-size: 3em;
+        color: #fff;
+        font-family: fantasy;
+    }
+
+    .content-buttons{
+        display: flex;
+        margin-top: 25px;
+        .btn{
+            display: inline-block;
+            margin: 0px 10px;
+            border: none;
+            padding: 12px 38px;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+            outline: none;
+            &:hover{
+                background-color: #7159C1;
+                color: #fff;
+                transition: all 200ms;
+            }
+        }
+    }
+}
+.active{
+    background-color: #7159C1;
+    color: #fff;
+    transition: all 200ms;
+}

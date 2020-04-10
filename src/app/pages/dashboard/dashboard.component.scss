@@ -1,0 +1,18 @@
+.dashboard {
+  height: 100%;
+  max-width: 1100px;
+  margin: 3em 0px auto;
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 1em;
+
+    .item {}
+  }
+}
+
+img {
+  width: 100%;
+}
